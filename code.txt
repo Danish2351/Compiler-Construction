@@ -1,10 +1,11 @@
-int a = 5;
-const int b = 10;
-float f = 1;
-/* Comments start here  */
 
-public static void main(String[] args){
-char c = 'Car';
-string d = "hello, this is lexical analysis";
-float e = 1.45;
+int a, b, c, d[], e[10];
+void main() {
+    if (a > b) {
+        a = b;
+    }
+    else {
+        b = a;
+    }
 }
+
