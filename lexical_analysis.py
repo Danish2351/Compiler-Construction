@@ -2,9 +2,9 @@ import re
 
 class LexicalAnalyzer:
     PATTERNS = {
-        "keywords": ["const", "char", "int", "string", "float", "double", "bool", "if", "else", "for", "while", "do", "public", "static", "void", "main", "args"],
+        "keywords": ["const", "char", "int", "string", "float", "double", "bool", "if", "else", "for", "while", "do", "void", "main", "return"],
         "operators": ["+", "-", "*", "/", "=", "%", "<", ">", ">=", "<=", "!=", "!"],
-        "punctuation": [",", ";", "(", ")", "{", "}", "[", "]"]
+        "punctuation": [",", ";", "(", ")", "{", "}", "[", "]"],
     }
 
     TOKEN_PATTERNS = [

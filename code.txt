@@ -1,11 +1,18 @@
 
-int a, b, c, d[], e[10];
-void main() {
-    if (a > b) {
-        a = b;
-    }
-    else {
-        b = a;
-    }
-}
+void main()
+{
+    // Multi variable declaration
+    int a,b;
+    char c[2],d[10];
+    /* Start of program */
+    a+b;
 
+    c= b+a;
+
+    if (c>10) {
+        a=b;
+    } else {
+        a=5;
+    }
+
+}
