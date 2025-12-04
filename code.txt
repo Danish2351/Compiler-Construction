@@ -1,4 +1,3 @@
-
 void main()
 {
     // Multi variable declaration
@@ -13,6 +12,9 @@ void main()
         a=b;
     } else {
         a=5;
+    }
+    void userFunction(){
+        int x=10;
     }
 
 }
